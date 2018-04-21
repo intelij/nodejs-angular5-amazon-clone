@@ -25,11 +25,11 @@
 
 # Now lets create our first http route
 
-	app.get('/', req, res, next) => {
-		res.json({
-			user: 'Khululekani Mkhonza'
-		});
-	});
+	app.get('/', (req, res, next) => {
+        res.json({
+            user: 'Khululekani Mkhonza'
+        });
+    });
 
 
 	now head over to your browser and navigate to localhost:3030

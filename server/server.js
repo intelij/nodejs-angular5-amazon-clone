@@ -1,8 +1,8 @@
 const express = require('express');
-const cors = require('cors');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const cors = require('cors');
 
 const config = require('./config');
 
@@ -21,6 +21,11 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use(morgan('dev'));
 app.use(cors());
 
+app.get('/', (req, res, next) => {
+    res.json({
+        user: 'Khululekani Mkhonza'
+    });
+});
 
 app.listen(config.port, err => {
    console.log('We are here listening to port ' + config.port)
