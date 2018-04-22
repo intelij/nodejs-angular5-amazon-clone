@@ -60,8 +60,11 @@ Head over to our project files
         secret: 'q9RjOof6d3BeHISR3Xn8bc58YhI0QMCFJ/+AWqLcNic'
     }
 
-
 	create a connection to the database
+
+	BAM Bob's your uncle ;)
+
+
 
 
 
