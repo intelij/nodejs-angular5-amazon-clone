@@ -1,8 +1,11 @@
+# Notes to expand when turning this to a blog post so ignore the typos
+
+
 ## If you do not have nodemon installed in your global scope do so as we will be using it.
 
     npm install nodemon -g
 
-    * why use nodemon instead of just node
+    * why use nodemon instead of just node - expand more for the sake of those that dont know the diff, the fact they are here they should know hmmm
 
 ## Install our project dependancies
 
@@ -106,7 +109,7 @@ ng generate component Home
   create src/app/home/home.component.ts (262 bytes)
 
   update src/app/app.module.ts (691 bytes)
-  
+
 
 
 
