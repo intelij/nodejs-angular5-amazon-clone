@@ -1,4 +1,6 @@
-# Notes to expand when turning this to a blog post so ignore the typos
+# WORKING PROGRESS: DO NOT USE
+
+## Notes to expand when turning this to a blog post so ignore the typos
 
 
 ## If you do not have nodemon installed in your global scope do so as we will be using it.
