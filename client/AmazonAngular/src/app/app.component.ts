@@ -6,5 +6,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+    title = 'app';
+    searchTerm = '';
+    isCollapsable = true;
+
+    get token() {
+        return localStorage.getItem('token');
+    }
+
+    collapse() {
+        this.isCollapsable = true;
+    }
+
+    closeDropdown(dropdown) {
+        dropdown.close();
+    }
+
+    logout() {}
+
+    search() {}
+
 }
