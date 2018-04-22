@@ -57,7 +57,7 @@ Head over to our project files
 	module.exports = {
         database: 'mongodb://username:password@ds111638.mlab.com:11638/amazonclone',
         port: 3030,
-        secret: 'q9RjOof6d3BeHISR3Xn8bc58YhI0QMCFJ/+AWqLcNic'
+        secret: 'q9RjOof6d3BeHISR3Xn8bc58YhI0QMCFJ'
     }
 
 	create a connection to the database
@@ -87,6 +87,10 @@ Now lets work on the UI side of things with Angular
 
    lets head to google and get the link
 
-   
+next lets define our dependancies, head over to app.modules.ts
+
+
+
+
 
 
