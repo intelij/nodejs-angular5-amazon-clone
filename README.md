@@ -65,6 +65,28 @@ Head over to our project files
 	BAM Bob's your uncle ;)
 
 
+Now lets work on the UI side of things with Angular
 
+# create a folder in the root folder of your project i called mine AmazonAngular
+
+# install angular cli globally on your system, you can install within the package if you like
+
+	npm install -g @angular/cli
+
+	ng new AmazonAngular --routing --style=scss
+
+	This allows use to create a new angular app
+
+	cd into AmazonAngular and do an npm install @ng-bootstrap/ng-bootstrap
+
+		npm install @ng-bootstrap/ng-bootstrap
+
+   now lets open our project in the IDE
+
+   we will bring in font awesome 4.7 cdn
+
+   lets head to google and get the link
+
+   
 
 
