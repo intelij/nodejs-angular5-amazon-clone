@@ -89,6 +89,21 @@ Now lets work on the UI side of things with Angular
 
 next lets define our dependancies, head over to app.modules.ts
 
+check the commits we have created the styles and index page layout with nav and footer, I will not go thru this as its not in the scope of the project the code is readable you should be able to make out what is what
+
+go to console and generate component home
+
+ng generate component Home
+
+➜  AmazonAngular git:(master) ✗ ng generate component Home
+  create src/app/home/home.component.scss (0 bytes)
+  create src/app/home/home.component.html (23 bytes)
+  create src/app/home/home.component.spec.ts (614 bytes)
+  create src/app/home/home.component.ts (262 bytes)
+  update src/app/app.module.ts (691 bytes)
+
+
+
 
 
 
